@@ -31,7 +31,7 @@ Built with Next.js and TypeScript, Wallet Wise is an advanced AI financial advic
 
 ## <a name="credit">🤝 Credit</a>
 Albert Mends - Kindly visit his Youtube Channel for more project
-[ 🎬 🎥 🔴 ▶ YouTube Channel](https://www.youtube.com/watch?v=gvUsUpDlav4&t=373s)
+- [ 🎬 🎥 🔴 ▶ YouTube Channel](https://www.youtube.com/@albertmends)
 
 ## <a name="author">✍ Author</a>
 - ⋆˚࿔ 𝐧𝐚𝐦𝐞 𝜗𝜚˚⋆: Emmanuel Senu Mensah
