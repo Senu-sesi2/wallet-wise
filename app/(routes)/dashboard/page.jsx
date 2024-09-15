@@ -79,10 +79,9 @@ function Dashboard() {
 
   return (
     <div className="p-8 bg-">
-      <h2 className="font-bold text-4xl">Hi, {user?.fullName} 👋</h2>
+      <h2 className="font-bold text-4xl">Hi, {user?.fullName} 🤗</h2>
       <p className="text-gray-500">
-        Here's what happenning with your money, Lets Manage your expense
-      </p>
+          Welcome to Your Wallet! Your wise companion for wiser spending and better saving.      </p>
 
       <CardInfo budgetList={budgetList} incomeList={incomeList} />
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-6 gap-5">
@@ -95,7 +94,7 @@ function Dashboard() {
           />
         </div>
         <div className="grid gap-5">
-          <h2 className="font-bold text-lg">Latest Budgets</h2>
+          <h2 className="font-bold text-lg">Current Budgets</h2>
           {budgetList?.length > 0
             ? budgetList.map((budget, index) => (
                 <BudgetItem budget={budget} key={index} />

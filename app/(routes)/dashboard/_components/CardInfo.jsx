@@ -63,11 +63,11 @@ function CardInfo({ budgetList, incomeList }) {
           <div className="p-7 border mt-4 -mb-1 rounded-2xl flex items-center justify-between">
             <div className="">
               <div className="flex mb-2 flex-row space-x-1 items-center ">
-                <h2 className="text-md ">Finan Smart AI</h2>
+                <h2 className="text-md ">\Wallet Wise AI</h2>
                 <Sparkles
                   className="rounded-full text-white w-10 h-10 p-2
     bg-gradient-to-r
-    from-pink-500
+    from-green-500
     via-red-500
     to-yellow-500
     background-animate"
@@ -87,7 +87,7 @@ function CardInfo({ budgetList, incomeList }) {
                   ${formatNumber(totalBudget)}
                 </h2>
               </div>
-              <PiggyBank className="bg-blue-800 p-3 h-12 w-12 rounded-full text-white" />
+              <PiggyBank className="bg-primary p-3 h-12 w-12 rounded-full text-secondary" />
             </div>
             <div className="p-7 border rounded-2xl flex items-center justify-between">
               <div>
@@ -96,14 +96,14 @@ function CardInfo({ budgetList, incomeList }) {
                   ${formatNumber(totalSpend)}
                 </h2>
               </div>
-              <ReceiptText className="bg-blue-800 p-3 h-12 w-12 rounded-full text-white" />
+              <ReceiptText className="bg-primary p-3 h-12 w-12 rounded-full text-secondary" />
             </div>
             <div className="p-7 border rounded-2xl flex items-center justify-between">
               <div>
                 <h2 className="text-sm">No. Of Budget</h2>
                 <h2 className="font-bold text-2xl">{budgetList?.length}</h2>
               </div>
-              <Wallet className="bg-blue-800 p-3 h-12 w-12 rounded-full text-white" />
+              <Wallet className="bg-primary p-3 h-12 w-12 rounded-full text-secondary" />
             </div>
             <div className="p-7 border rounded-2xl flex items-center justify-between">
               <div>
@@ -112,7 +112,7 @@ function CardInfo({ budgetList, incomeList }) {
                   ${formatNumber(totalIncome)}
                 </h2>
               </div>
-              <CircleDollarSign className="bg-blue-800 p-3 h-12 w-12 rounded-full text-white" />
+              <CircleDollarSign className="bg-primary p-3 h-12 w-12 rounded-full text-secondary" />
             </div>
           </div>
         </div>
